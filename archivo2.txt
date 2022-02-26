@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 chanchito feliz
 chancito triste
 felipe
@@ -15,3 +16,5 @@ sfds
 fgdfgdfgfgdfg
 dgdgdf
 sdfsdf
+=======
+>>>>>>> e729bf64ac5710970c80944ad3c40a2bc138058a
