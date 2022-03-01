@@ -1,7 +1,11 @@
 <div class="container">
   <div class="row">
-      <div class="col"></div>
-      <h1>Listado de Personas</h1>
+      <div class="col">
+        <h1>Listado de Personas</h1>
+        <button class="btn btn-primary"
+         [disabled]="deshabilitar">Agregar Personas</button>
+      </div>
+
       <app-persona></app-persona>
     </div>
 </div>
