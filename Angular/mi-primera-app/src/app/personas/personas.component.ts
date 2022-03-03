@@ -13,9 +13,11 @@ import { Component } from "@angular/core"
 export class PersonasComponent{
 deshabilitar = false;
 mensaje= 'No se ha agragdo ninguna persona'
-titulo='kaka'
+titulo=''
+mostrar=false;
 agregarPersona(){
   this.mensaje='Persona agregada'
+  this.mostrar =true;
 
 }
 

@@ -1,0 +1,16 @@
+<form class="row">
+  <div class=" col">
+    <label for="nombre" class="sr-only">Nombre</label>
+    <input type="text" name="nombre" id="nombre" placeholder="nombre" class="form-control"
+     [(ngModel)] = 'nombreInput'>
+    </div>
+     <div class="col">
+      <label for="" class="sr-only">Apellido</label>
+      <input type="text" name="apellido" id="apellido" placeholder="apedllido" class="form-control"
+       [(ngModel)] = 'apellidoInput'>
+     </div>
+     <div class="col">
+       <button type="submit" class="btn btn-primary" (click)="agregarPersona()">Agregar</button>
+     </div>
+
+</form>
