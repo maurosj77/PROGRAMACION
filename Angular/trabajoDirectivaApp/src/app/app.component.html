@@ -1,0 +1,25 @@
+
+
+<div class="comtainer">
+<div class="row">
+<h1 style="text-align: center;" class="col-6" > {{ titulo }} </h1>
+<form action="">
+<label for="">NOMBRE</label><br>
+<input type="text" name="nombre" placeholder="nombre" [(ngModel)]="nombre"><br>
+<label for="">APELLIDO</label><br>
+<input type="text" name="apellido" placeholder="apellido" [(ngModel)]="apellido"><br>
+<br>
+<button name="registrar" (click)="usuRegistrado()">registrar</button>
+<p *ngIf="registrado "> {{ mensaje }} </p>
+</form>
+</div>
+
+
+<ul>
+  <li *ngFor="let entrada of entradas "> {{entrada.chucha}} </li>
+
+</ul>
+
+
+</div>
+
