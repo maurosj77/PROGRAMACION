@@ -1,5 +1,6 @@
 function kaka(){
+    let kaka = 'prueba texto'
     console.log("prueba")
-    return 1+2
+    
 
 }
